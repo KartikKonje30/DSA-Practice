@@ -18,10 +18,30 @@
 // console.log(p);
 // }
 
+// Pattern 2 ->
+// *
+// **
+// ***
+// ****
+// *****
+
+// function pattern2(n){
+//     let p ="";
+// for(let i=0; i<n; i++){
+//     for(let j=0; j<=i; j++){
+//         p = p + "*";
+//     }
+//     if(i< n-1){
+//         p = p + "\n";
+//     }
+// }
+// console.log(p);
+// }
+
 function pattern2(n){
     let p ="";
 for(let i=0; i<n; i++){
-    for(let j=0; j<n; j++){
+    for(let j=0; j<=i; j++){
         p = p + "*";
     }
     if(i< n-1){
