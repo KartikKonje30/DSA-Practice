@@ -18,17 +18,17 @@
 // The next is to create an interface for input and output operations.
 // Now, we can proceed to use the .question() method 
 
-const readline = require('readline')
+// const readline = require('readline')
 
-const r1 = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
+// const r1 = readline.createInterface({
+//     input: process.stdin,
+//     output: process.stdout
+//   });
   
-  r1.question('What is your name?', function (name){
-    console.log(`Hello, ${name}!`);
-    r1.close();
-  });
+//   r1.question('What is your name? ', function (name){
+//     console.log('Hello '+ name +'!');
+//     r1.close();
+//   });
 
 
 // function count_digit(n){
