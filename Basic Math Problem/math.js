@@ -1,5 +1,4 @@
 
-
 //To take input from user via console in javascript
 
 //To get the user’s input from the web browser is easy by using JavaScript prompt() method. 
