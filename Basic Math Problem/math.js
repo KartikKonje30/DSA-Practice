@@ -52,14 +52,11 @@
 
 // console.log(count_digit(n));
 
-function count(n){
-    let count = 0;
-    while(n!=0){
-        n = n%10;
-        count++;
-    }
-    return count;
-}
-console.log(count(12345));
 
-console.log("Hi")
+// function count(n){
+//     if(n/10 == 0){
+//         return 0;
+//     }
+//     return 1 + count(Math.floor(n/10));
+// }
+// console.log(count(1234558748))
