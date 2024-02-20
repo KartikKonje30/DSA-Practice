@@ -114,16 +114,43 @@
 // }
 
 // TC: O(N), that is minimun of n1 and n2
-// SC: O(1);
+// SC: O(1)
 
 //Euclidean’s theorem using recurison 
 
-// function gcd(n1,n2){
-// if(n1==0) return n2;
-// if(n2==0) return n1;
-//     return gcd(n2, n1%n2);
+// function gcd(a,b){
+// if(b==0) return a;
+// return gcd(b,a%b);
 // }
+
+// TC: O(Log(min(a,b))), that is minimun of n1 and n2
+// SC: O(Log(min(a,b)))
 
 // console.log(gcd(12,24));
 
+//Armstrong Number Problem
 
+// function cal_arm_strong(n){
+//     let temp =n;
+//     let count =0;
+//     let x=n;
+//     while(temp!=0){
+//         count++;
+//         temp = Math.floor(temp / 10);
+//     }
+//     let sum = 0;
+//     while(x!=0){
+//         temp = x%10;
+//         sum = sum + Math.pow(temp,count);
+//         x = Math.floor(x/10);
+//     }
+//     if(sum == n){
+//         return "Armstrong Number !";
+//     }
+//     return "Not a Armstrong Number !";
+// }
+
+// TC: O(N), where n is the number of digits since we need to traverse every digit and add digits raised to power no. of digits to sum.
+// SC: O(1)
+
+// console.log(cal_arm_strong(1634));
