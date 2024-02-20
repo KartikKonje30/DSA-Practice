@@ -99,3 +99,31 @@
 
 // console.log(palindrome(12345321));
 
+//GCD (Greatest Common Divisor) OR HCF (Highest Common Factor)
+
+// Brute Force
+
+// function gcd(n1,n2){
+//     let gcd=1;
+//     for(let i=0; i <= Math.min(n1,n2); i++){
+//         if(n1 % i == 0 && n2 % i == 0){
+//             gcd=i;
+//         }
+//     }
+//     return gcd;
+// }
+
+// TC: O(N), that is minimun of n1 and n2
+// SC: O(1);
+
+//Euclidean’s theorem using recurison 
+
+// function gcd(n1,n2){
+// if(n1==0) return n2;
+// if(n2==0) return n1;
+//     return gcd(n2, n1%n2);
+// }
+
+// console.log(gcd(12,24));
+
+
