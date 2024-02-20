@@ -60,3 +60,42 @@
 //     return 1 + count(Math.floor(n/10));
 // }
 // console.log(count(1234558748))
+
+
+//Reverse of a number 
+
+// function reverse(n){
+    
+//     let rev = 0;
+//     while(n!=0){
+//     let temp = n%10;
+//     rev = (rev*10) + temp;
+//     n = Math.floor(n/10);
+//     }
+//     console.log(rev)
+// }
+
+// console.log(reverse(54321))
+
+//Palindrome of a number
+
+// function palindrome(n){
+//     let x=n;
+//     let y=0;
+//     while(x>0){
+//         let temp = x % 10;
+//         y = (y * 10) + temp;
+//         x = Math.floor(x / 10);
+//     }
+//     console.log(y);
+//     console.log(x);
+//     if(y==n){
+//         return "Palindrome Number";
+//     }
+//     else{
+//         return "Not Palindrome Number";
+//     }
+// }
+
+// console.log(palindrome(12345321));
+
