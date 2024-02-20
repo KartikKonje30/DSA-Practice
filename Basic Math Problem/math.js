@@ -154,3 +154,39 @@
 // SC: O(1)
 
 // console.log(cal_arm_strong(1634));
+
+//Print All the Divisors
+
+//Brute Force 
+
+// function printDivisors(n) {
+//     console.log("The Divisors of " + n + " are:");
+//     for (let i = 1; i <= n; i++) {
+//       if (n % i === 0) {
+//         process.stdout.write(i + " ");
+//       }
+//     }
+//     console.log("\n");
+//   }
+
+// TC: O(N), it will run till n always.
+// SC: O(1)
+
+//Squareroot of number for Optimal solution
+
+// function printDivisors(n) {
+//     for(let i=1; (i*i)<=n; i++){
+//         if(n%i == 0){
+//             console.log(i);
+//             if((n/i) != i){
+//                 console.log(n/i);
+//             }
+//         }
+//     }
+// }
+
+// TC: O(sqrt(n))
+// SC: O(1)
+  
+// printDivisors(97);
+  
