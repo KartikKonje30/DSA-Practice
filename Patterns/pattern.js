@@ -146,23 +146,25 @@
 // so we can say that there are N-i-1 spaces, 2*i+1 stars, and then again N-i-1 spaces for each row where i is the row index. 
 // We thus simply run 3 inner loops first for printing the spaces, then the stars, and then the spaces again.
 
-function pattern7(n){
-    let p ="";
-for(let i=0; i<n; i++){
-    for(let j=0; j<((n-i)-1); j++){
-        p = p + " ";
-    }
-    for(let j=0; j<((2*i)+1); j++){
-        p = p + "*";
-    }
-    for(let j=0; j<((n-i)-1); j++){
-        p = p + " ";
-    }
-    if(i < n-1){
-        p = p + "\n";
-    }
-}
-console.log(p)
-}
+// function pattern7(n){
+//     let p ="";
+// for(let i=0; i<n; i++){
+//     for(let j=0; j<((n-i)-1); j++){
+//         p = p + " ";
+//     }
+//     for(let j=0; j<((2*i)+1); j++){
+//         p = p + "*";
+//     }
+//     for(let j=0; j<((n-i)-1); j++){
+//         p = p + " ";
+//     }
+//     if(i < n-1){
+//         p = p + "\n";
+//     }
+// }
+// console.log(p)
+// }
 
-pattern7(5);
+// pattern7(5);
+
+
