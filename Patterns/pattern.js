@@ -171,7 +171,7 @@
 
 // const arr = ['z' , 'a', 'd', 'b', 'e'];
 // let temp = arr[0].charCodeAt();
-// let temp;
+// // let temp;
 // for(let i=0; i<arr.length; i++){
 //     for(let j=i+1; j<arr.length; j++){
 //         if(arr[i].charCodeAt() > arr[j].charCodeAt()){
@@ -182,17 +182,21 @@
 //     }
 // }
 
+// console.log(arr);
+
 // for(var a = 0; a < 5; a++){
 //     setTimeout(() => console.log(a), 5000);
 //   }
   
 //Using IIFE (Immediately Invoked Function Expression) to solve problem of var type variable
-  for(var a = 0; a < 5; a++){
-    (function(a){
-        setTimeout(() => {
-          console.log(a)
-        }, a * 1000)
-      })(a)
-  }
+  // for(var a = 0; a <= 5; a++){
+  //   (function(a){
+  //       setTimeout(() => {
+  //         console.log(a)
+  //       }, a * 1000)
+  //     })(a)
+  // }
+
+
   
   
